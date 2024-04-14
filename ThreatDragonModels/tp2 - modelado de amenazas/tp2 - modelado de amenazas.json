@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "bb08559c-b2ad-46ce-a8ea-ff3a74133bf7",
             "zIndex": 1,
+            "id": "bb08559c-b2ad-46ce-a8ea-ff3a74133bf7",
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -48,6 +48,40 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 190,
+              "y": 100
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "test"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "11640ad2-3b47-4652-b344-92556483a212",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "test",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
               "threats": []
             }
           }
